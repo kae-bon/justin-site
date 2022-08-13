@@ -8,40 +8,40 @@ a {
 
 body {
     background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
-    color: #efefef;
+    color: #790404;
+    margin: 0;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
-    margin: 0 10px 0 10px;
-}
-
-p {
-    font-size: 16px;
-}
-
-h1 {
-    padding-left: 20px;
-    font-size: 1.75em;
+    height: 50px;
+    background-color: #454545;
+    opacity: 60%;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
+    font-family: 'Catamaran';
+    font-weight: 100;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 h3 {
     font-size: 1.25em;
+    font-weight: 300;
 }
 
-h2, h3, p {
+h3, p {
     margin: 0;
     padding-bottom: 15px;
 }
 
 p {
     font-size: 1em;
+    font-weight: 300;
 }
 
 #mainBody {
@@ -65,6 +65,7 @@ p {
 #mainText {
     flex: 0 0 50%;
     text-align: justify;
+    color: #efefef;
 }
 
 .navIcon {
@@ -78,7 +79,7 @@ p {
 }
 
 .nav:hover {
-    color: #5f0a0e;
+    color: #75AFBC;
     transition: .25s;
 }
 
@@ -86,14 +87,16 @@ p {
     color: #efefef;
     text-decoration: none;
     margin-right: 20px;
+    font-weight: 300;
+    opacity: 100%;
 }
 
 .paraLink {
-    color: #eb414a;
+    color: #75AFBC;
     text-decoration: none;
 }
 
 .paraLink:hover {
-    color: #5f0a0e;
+    color: #D40505;
     transition: .25s;
 }
