@@ -1,69 +1,10 @@
+/* Across Pages */
 html {
     font-family: 'Lato', sans-serif;
 }
 
 a {
     text-decoration: none;
-}
-
-iframe {
-    width: 500px;
-
-}
-
-#cvDoc {
-    padding-top: 32px;
-    display: flex;
-    justify-content: center;
-    height: 82vh;
-}
-
-#pub {
-    background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
-    margin: 0;
-} 
-
-#cv {
-    background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
-    margin: 0;
-}
-
- #home {
-    background-image: url("../justin-site/Images/Dendrite_Dark.jpg");
-    margin: 0;
-    background-size: cover;
-}
-
-li {
-    padding-bottom: 15px;
-}
-
-.nav:hover {
-    color: #75AFBC;
-    transition: .25s;
-}
-
-.nav {
-    color: #efefef;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: 400;
-}
-
-.nav:visited {
-    color: #D40505;
-}
-
-.nav:visited:hover {
-    color: #75AFBC;
-}
-
-#publications {
-    padding: 0 100px 0 100px;
-}
-
-#pubList {
-    padding: 0 100px 0 100px;
 }
 
 header {
@@ -97,10 +38,60 @@ p {
     font-weight: 300;
 }
 
-ul {
-    font-size: 1em;
-    font-weight: 300;
+.paraLink {
+    color: #75AFBC;
+    text-decoration: none;
+}
+
+.paraLink:hover {
+    color: #D40505; 
+    transition: .25s;
+}
+
+.paraLink:visited {
+    color: #D40505;
+}
+
+.paraLink:visited:hover {
+    color: #75AFBC;
+}
+
+.nav:hover {
+    color: #75AFBC;
+    transition: .25s;
+}
+
+.nav {
+    color: #efefef;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.nav:visited {
+    color: #D40505;
+}
+
+.nav:visited:hover {
+    color: #75AFBC;
+}
+
+
+/* Home Page */
+#home {
+    background-image: url("../justin-site/Images/Dendrite_Dark.jpg");
     margin: 0;
+    background-size: cover;
+}
+
+.navIcon {
+    width: 45px;
+    padding: 10px;
+}
+
+.navIcon:hover {
+    opacity: 60%;
+    transition: .5s;
 }
 
 #mainBody {
@@ -133,35 +124,51 @@ ul {
     padding-top: 2em;
 }
 
-.navIcon {
-    width: 45px;
-    padding: 10px;
+/* CV Page */
+iframe {
+    width: 500px;
+
 }
 
-.navIcon:hover {
-    opacity: 60%;
-    transition: .5s;
+#cvDoc {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    height: 82vh;
 }
 
-.paraLink {
-    color: #75AFBC;
-    text-decoration: none;
+#cv {
+    background-image: url("../justin-site/Images/Cortical_Neuron_Blur.jpg");
+    margin: 0;
+    background-size: cover;
 }
 
-.paraLink:hover {
-    color: #D40505; 
-    transition: .25s;
-}
 
-.paraLink:visited {
-    color: #D40505;
-}
-
-.paraLink:visited:hover {
-    color: #75AFBC;
-}
+/* Publications Page */
+#pub {
+    background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
+    margin: 0;
+} 
 
 .paperDownload {
     color: #75AFBC;
     text-decoration: none;
+}
+
+ul {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+#publications {
+    padding: 0 100px 0 100px;
+}
+
+#pubList {
+    padding: 0 100px 0 100px;
 }
