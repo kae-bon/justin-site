@@ -6,10 +6,64 @@ a {
     text-decoration: none;
 }
 
-body {
+iframe {
+    width: 500px;
+
+}
+
+#cvDoc {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    height: 82vh;
+}
+
+#pub {
     background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
-    color: #790404;
     margin: 0;
+} 
+
+#cv {
+    background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
+    margin: 0;
+}
+
+ #home {
+    background-image: url("../justin-site/Images/Dendrite_Dark.jpg");
+    margin: 0;
+    background-size: cover;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+.nav:hover {
+    color: #75AFBC;
+    transition: .25s;
+}
+
+.nav {
+    color: #efefef;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.nav:visited {
+    color: #D40505;
+}
+
+.nav:visited:hover {
+    color: #75AFBC;
+}
+
+#publications {
+    padding: 0 100px 0 100px;
+}
+
+#pubList {
+    padding: 0 100px 0 100px;
 }
 
 header {
@@ -17,8 +71,7 @@ header {
     justify-content: right;
     align-items: center;
     height: 50px;
-    background-color: #454545;
-    opacity: 60%;
+    background-color: rgba(69, 69, 69, .6);
 }
 
 h2 {
@@ -44,6 +97,12 @@ p {
     font-weight: 300;
 }
 
+ul {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+}
+
 #mainBody {
     display: flex;
     justify-content: center;
@@ -55,10 +114,11 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #headshot {
-    max-height: 325px;
+    max-height: 350px;
     padding: 0 50px 0 50px;
 }
 
@@ -66,6 +126,11 @@ p {
     flex: 0 0 50%;
     text-align: justify;
     color: #efefef;
+}
+
+#text {
+    color: #efefef;
+    padding-top: 2em;
 }
 
 .navIcon {
@@ -78,25 +143,25 @@ p {
     transition: .5s;
 }
 
-.nav:hover {
-    color: #75AFBC;
-    transition: .25s;
-}
-
-.nav {
-    color: #efefef;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: 300;
-    opacity: 100%;
-}
-
 .paraLink {
     color: #75AFBC;
     text-decoration: none;
 }
 
 .paraLink:hover {
-    color: #D40505;
+    color: #D40505; 
     transition: .25s;
+}
+
+.paraLink:visited {
+    color: #D40505;
+}
+
+.paraLink:visited:hover {
+    color: #75AFBC;
+}
+
+.paperDownload {
+    color: #75AFBC;
+    text-decoration: none;
 }
