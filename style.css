@@ -6,42 +6,101 @@ a {
     text-decoration: none;
 }
 
-body {
+iframe {
+    width: 500px;
+
+}
+
+#cvDoc {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    height: 82vh;
+}
+
+#pub {
     background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
+    margin: 0;
+} 
+
+#cv {
+    background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
+    margin: 0;
+}
+
+ #home {
+    background-image: url("../justin-site/Images/Dendrite_Dark.jpg");
+    margin: 0;
+    background-size: cover;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+.nav:hover {
+    color: #75AFBC;
+    transition: .25s;
+}
+
+.nav {
     color: #efefef;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.nav:visited {
+    color: #D40505;
+}
+
+.nav:visited:hover {
+    color: #75AFBC;
+}
+
+#publications {
+    padding: 0 100px 0 100px;
+}
+
+#pubList {
+    padding: 0 100px 0 100px;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
-    margin: 0 10px 0 10px;
-}
-
-p {
-    font-size: 16px;
-}
-
-h1 {
-    padding-left: 20px;
-    font-size: 1.75em;
+    height: 50px;
+    background-color: rgba(69, 69, 69, .6);
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
+    font-family: 'Catamaran';
+    font-weight: 100;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 h3 {
     font-size: 1.25em;
+    font-weight: 300;
 }
 
-h2, h3, p {
+h3, p {
     margin: 0;
     padding-bottom: 15px;
 }
 
 p {
     font-size: 1em;
+    font-weight: 300;
+}
+
+ul {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
 }
 
 #mainBody {
@@ -55,16 +114,23 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #headshot {
-    max-height: 325px;
+    max-height: 350px;
     padding: 0 50px 0 50px;
 }
 
 #mainText {
     flex: 0 0 50%;
     text-align: justify;
+    color: #efefef;
+}
+
+#text {
+    color: #efefef;
+    padding-top: 2em;
 }
 
 .navIcon {
@@ -77,23 +143,25 @@ p {
     transition: .5s;
 }
 
-.nav:hover {
-    color: #5f0a0e;
-    transition: .25s;
-}
-
-.nav {
-    color: #efefef;
-    text-decoration: none;
-    margin-right: 20px;
-}
-
 .paraLink {
-    color: #eb414a;
+    color: #75AFBC;
     text-decoration: none;
 }
 
 .paraLink:hover {
-    color: #5f0a0e;
+    color: #D40505; 
     transition: .25s;
+}
+
+.paraLink:visited {
+    color: #D40505;
+}
+
+.paraLink:visited:hover {
+    color: #75AFBC;
+}
+
+.paperDownload {
+    color: #75AFBC;
+    text-decoration: none;
 }
