@@ -86,7 +86,7 @@ p {
 
 /* Home Page */
 #home {
-    background-image: url("../justin-site/Images/DendriteDark.jpg");
+    background-image: url("./Images/DendriteDark.jpg");
     margin: 0;
     background-size: cover;
 }
@@ -140,7 +140,7 @@ iframe {
 }
 
 #cv {
-    background-image: url("../justin-site/Images/CorticalNeuron.jpg");
+    background-image: url("./Images/CorticalNeuron.jpg");
     margin: 0;
     background-size: cover;
 }
@@ -148,7 +148,7 @@ iframe {
 
 /* Publications Page */
 #pubPage {
-    background-image: url("../justin-site/Images/PyramidalNeuron.jpg");
+    background-image: url("./Images/PyramidalNeuron.jpg");
     margin: 0;
 } 
 
