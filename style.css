@@ -193,23 +193,6 @@ li {
     padding: 32px;
 }
 
-#imgOne {
-    width: 300px;
-}
-
-#imgTwo {
-    width: 300px;
-}
-
-#imgThree {
-    width: 300px;
-}
-
-#imgOne:hover, #imgTwo:hover, #imgThree:hover {
-    transform: scale(1.05);
-    transition: 1s;
-}
-
 .pub {
     display: flex;
     padding: 15px 75px 15px 75px;
@@ -229,4 +212,50 @@ hr {
 #pdf:hover {
     color: #D40505;
     transition: .25s;
+}
+
+/* Phone CSS */
+
+@media only screen and (max-width: 320px) {
+    #mainBody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #headshot {
+        max-height: 250px;
+        padding: 0;
+    }
+
+    #columnOne {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #mainText {
+        padding: 5%;
+    }
+
+    .nav {
+        color: #efefef;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: 400;
+    }
+
+    #microglia {
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    #pubList {
+        padding: 0;
+    }
+
+    .pub {
+        padding: 10px;
+    }
 }
