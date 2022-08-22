@@ -9,7 +9,7 @@ a {
 
 header {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     height: 50px;
     background-color: rgba(69, 69, 69, .6);
@@ -21,6 +21,7 @@ h2 {
     font-weight: 100;
     padding-bottom: 0;
     margin: 0;
+    color: #efefef;
 }
 
 h3 {
@@ -36,6 +37,8 @@ h3, p {
 p {
     font-size: 1em;
     font-weight: 300;
+    color: #efefef;
+    text-align: justify;
 }
 
 .paraLink {
@@ -68,14 +71,18 @@ p {
     font-weight: 400;
 }
 
-.nav:visited {
-    color: #D40505;
-}
-
 .nav:visited:hover {
     color: #75AFBC;
 }
 
+.active {
+    color: #D40505;
+}
+
+#microglia {
+    height: 40px;
+    margin-left: 20px;
+}
 
 /* Home Page */
 #home {
@@ -119,11 +126,6 @@ p {
     color: #efefef;
 }
 
-#text {
-    color: #efefef;
-    padding-top: 2em;
-}
-
 /* CV Page */
 iframe {
     width: 500px;
@@ -145,10 +147,19 @@ iframe {
 
 
 /* Publications Page */
-#pub {
+#pubPage {
     background-image: url("../justin-site/Images/Pyramidal_Neuron_Dark_Blur.jpg");
     margin: 0;
 } 
+
+#text {
+    color: #efefef;
+}
+
+a + p {
+    padding: 0;
+    margin: 0;
+}
 
 .paperDownload {
     color: #75AFBC;
@@ -159,10 +170,13 @@ ul {
     font-size: 1em;
     font-weight: 300;
     margin: 0;
+    list-style: square;
 }
 
 li {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 #publications {
@@ -170,5 +184,49 @@ li {
 }
 
 #pubList {
-    padding: 0 100px 0 100px;
+    padding: 15px 100px 15px 100px;
+}
+
+#pubImages {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px;
+}
+
+#imgOne {
+    width: 300px;
+}
+
+#imgTwo {
+    width: 300px;
+}
+
+#imgThree {
+    width: 300px;
+}
+
+#imgOne:hover, #imgTwo:hover, #imgThree:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.pub {
+    display: flex;
+    padding: 15px 75px 15px 75px;
+    font-size: 1em;
+}
+
+hr {
+    border: .25px solid #efefef;
+}
+
+#pdf {
+    font-size: 50px;
+    padding-right: 20px;
+    color: #75AFBC;
+}
+
+#pdf:hover {
+    color: #D40505;
+    transition: .25s;
 }
