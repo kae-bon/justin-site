@@ -33,6 +33,10 @@
         font-weight: 400;
     }
 
+    .active {
+        color: #D40505;
+    }
+
     #microglia {
         height: 40px;
         margin-left: 10px;
