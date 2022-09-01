@@ -1,0 +1,48 @@
+/* Phone CSS */
+
+@media only screen 
+  and (min-device-width: 350px) 
+  and (max-device-width: 736px) 
+   { 
+    #mainBody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #headshot {
+        max-height: 250px;
+        padding: 0;
+    }
+
+    #columnOne {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #mainText {
+        padding: 5%;
+    }
+
+    .nav {
+        color: #efefef;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: 400;
+    }
+
+    #microglia {
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    #pubList {
+        padding: 0;
+    }
+
+    .pub {
+        padding: 10px;
+    }
+}

@@ -104,7 +104,6 @@ p {
 #mainBody {
     display: flex;
     justify-content: center;
-    flex-wrap: none;
     padding-top: 2em;
 }
 
@@ -216,7 +215,10 @@ hr {
 
 /* Phone CSS */
 
-@media only screen and (max-width: 320px) {
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
     #mainBody {
         display: flex;
         flex-direction: column;
@@ -259,3 +261,5 @@ hr {
         padding: 10px;
     }
 }
+    
+
