@@ -104,7 +104,9 @@ p {
 #mainBody {
     display: flex;
     justify-content: center;
-    padding-top: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 #columnOne {
@@ -116,11 +118,12 @@ p {
 
 #headshot {
     max-height: 350px;
-    padding: 0 50px 0 50px;
+    /* padding: 0 50px 0 50px; */
 }
 
 #mainText {
     flex: 0 0 50%;
+    /* padding-right: 50px; */
     text-align: justify;
     color: #efefef;
 }
